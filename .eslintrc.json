@@ -6,7 +6,9 @@
   "ignorePatterns": [
     "**/node_modules/*",
     "**/dist/*",
-    "**/build/*"
+    "**/build/*",
+    "*.json",
+    "*.MD"
   ],
   "rules": {
     "@typescript-eslint/no-empty-interface": "off"
